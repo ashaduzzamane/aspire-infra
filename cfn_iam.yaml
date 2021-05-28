@@ -587,3 +587,47 @@ Resources:
         PasswordResetRequired: true
       Groups:
         - !Ref DeveloperGroup
+ 
+ HadilTahir:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: hadiltahir5@gmail.com
+      LoginProfile:
+        Password:
+          Ref: UserPassword
+        PasswordResetRequired: true
+      Groups:
+        - !Ref DeveloperGroup
+ 
+ MuhammadTadjiev:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: muhammad2008.08@mail.ru
+      LoginProfile:
+        Password:
+          Ref: UserPassword
+        PasswordResetRequired: true
+      Groups:
+        - !Ref DeveloperGroup
+
+ MahimulHoque:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: mahimulh13@gmail.com
+      LoginProfile:
+        Password:
+          Ref: UserPassword
+        PasswordResetRequired: true
+      Groups:
+        - !Ref DeveloperGroup
+        
+ TahbibOsman:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: tahbibosman@cmail.carleton.com
+      LoginProfile:
+        Password:
+          Ref: UserPassword
+        PasswordResetRequired: true
+      Groups:
+        - !Ref DeveloperGroup
