@@ -630,3 +630,14 @@ Resources:
         PasswordResetRequired: true
       Groups:
         - !Ref DeveloperGroup
+  
+  EenanAshaduzzaman:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: Eenan.ashaduzzaman@mail.mcgill.ca
+      LoginProfile:
+        Password:
+          Ref: UserPassword
+        PasswordResetRequired: true
+      Groups:
+        - !Ref DeveloperGroup
