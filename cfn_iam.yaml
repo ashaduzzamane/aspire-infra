@@ -587,8 +587,7 @@ Resources:
         PasswordResetRequired: true
       Groups:
         - !Ref DeveloperGroup
- 
- HadilTahir:
+  HadilTahir:
     Type: AWS::IAM::User
     Properties:
       UserName: hadiltahir5@gmail.com
@@ -599,7 +598,7 @@ Resources:
       Groups:
         - !Ref DeveloperGroup
  
- MuhammadTadjiev:
+  MuhammadTadjiev:
     Type: AWS::IAM::User
     Properties:
       UserName: muhammad2008.08@mail.ru
@@ -610,7 +609,7 @@ Resources:
       Groups:
         - !Ref DeveloperGroup
 
- MahimulHoque:
+  MahimulHoque:
     Type: AWS::IAM::User
     Properties:
       UserName: mahimulh13@gmail.com
@@ -621,7 +620,7 @@ Resources:
       Groups:
         - !Ref DeveloperGroup
         
- TahbibOsman:
+  TahbibOsman:
     Type: AWS::IAM::User
     Properties:
       UserName: tahbibosman@cmail.carleton.com
